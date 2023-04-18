@@ -8,9 +8,9 @@ public class ExerciseOne {
         String middleName = " C. ";
         String lastName = " Williams ";
         String suffix = " PHD ";
-        String results = name + firstName + middleName + lastName + suffix;
 
-        System.out.println(results);
+        System.out.print(firstName.concat(middleName));
+        System.out.println(lastName.concat(suffix));
 
 
     }
